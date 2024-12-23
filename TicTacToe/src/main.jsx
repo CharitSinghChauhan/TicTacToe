@@ -3,7 +3,7 @@ import './index.css'
 import App from './App.jsx'
 import { connectSocket } from './socket.jsx'
 
-connectSocket("http://localhost:3000/")
+connectSocket("https://tictactoe-xryq.onrender.com")
 
 createRoot(document.getElementById('root')).render(
   <>
